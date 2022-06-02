@@ -1,0 +1,152 @@
+@media (max-width: 1365px) {
+    .header-links {
+      display: none;
+    }
+    .main__content-title {
+        font-size: 66px ;
+  }
+  .slider.active .slider__sidebar {
+    padding-left: 36px !important;
+}
+}
+@media (max-width: 768px) {
+    .main__content-title {
+        font-size: 50px ;
+        line-height: 56px;
+    }
+    .cards__items {
+        flex-wrap: wrap;
+    }
+    .cards__item {
+        width: 47%;
+        margin: 10px !important;
+    }
+    .slider__sidebar-title {
+        font-size: 32px;
+}
+}
+
+@media (max-width: 425px) {
+.switch-button{
+    display: none;
+}
+.header-container {
+    padding: 0 5px;
+}
+.number__item {
+    font-size: 12px;
+    padding-left: 5px;
+}
+.row{
+    flex-wrap: wrap-reverse;
+}
+.main {
+    margin-top: 50px;
+    overflow-x: hidden;
+}
+.main__content{
+    width: 100%;
+    padding: 10px;
+}
+.main__content-title {
+    text-align: center;
+    font-size: 45px;
+}
+.main__bg-img {
+    width: 100vh;
+    flex: 1;
+}
+.main__bg {
+    max-width: 100%;
+}
+.main__content-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.main__bg-img {
+    height: 100%;
+    min-height: 400px;
+}
+.main__button {
+    width: 100px;
+    height: 100px;
+}
+.main__button-text {
+    font-size: 10px;
+    line-height: 14px;
+}
+.main__btn {
+    text-align: right;
+    bottom: 0;
+}
+.boom .main__button {
+    width: 100px;
+    height: 100px;
+}
+.main__btn {
+    padding: 0;
+}
+.cards__item {
+    width: 46%;
+    margin: 5px !important;
+    min-height: 284px;
+}
+.cards__item-title {
+    font-size: 20px;
+}
+.cards__item-img {
+    width: 100%;
+}
+.slider.active .slider__sidebar {
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    padding-left: 0 !important;
+}
+.slider__sidebar-title{
+    font-size: 20px;
+    padding: 5px;
+}
+.slider.active .slider__block {
+    text-align: right;
+    height: 100%;
+    width: 100%;
+}
+.slider__bg {
+    flex-direction: column;
+}
+.slider.active .m1 {
+    left: 24%;
+    top: 67%;
+}
+.slider.active .m2 {
+    left: 31%;
+    top: 44%;
+}
+.slider.active .m7 {
+    right: 49%;
+    top: 65%;
+}
+.slider.active .m4 {
+    right: 36%;
+    top: 59%;
+}
+.slider.active .m6 {
+    right: 32%;
+    top: 82%;
+}
+.slider.active .m3 {
+    left: 33%;
+    top: 94%;
+}
+.slider.active .m5 {
+    right: 14%;
+    top: 74%;
+}
+}
+@media (max-width: 320px) {
+    .main__content-title {
+        text-align: center;
+        font-size: 38px;
+    }
+}
